@@ -37,6 +37,39 @@ La arquitectura Medallion implementada permite la capa de almacenamiento y proce
 1. **Configuración del Ambiente**: Asegúrate de tener las suscripciones de Azure y permisos necesarios.
 2. **Clonación del Repositorio**: `git clone https://github.com/AngeloCastilloPerez/Proyecto---YAMAHA.git`
 
+## Componentes de la Solución
+Los componentes clave de Azure empleados en este proyecto incluyeron Azure Data Lake, Azure Data Factory y Azure SQL Database, cada uno cumpliendo roles específicos dentro de la metodología Medallion, que estructura los datos en capas de procesamiento, desde la ingestión hasta el análisis.
+
+### Azure Data Lake
+Fue utilizado como repositorio central para las cargas de trabajo de análisis de macrodatos, almacenando datos de cualquier tamaño y tipo en un solo lugar, facilitando así análisis operativos y exploratorios. La flexibilidad en el escalado permitió a Yamaha manejar las cargas de trabajo de manera eficiente y garantizar la alta disponibilidad de los datos.
+
+### Azure Data Factory
+Sirvió como la solución de integración de datos, proporcionando una plataforma completa para la implementación de proyectos híbridos de ETL y ELT. ADF se utilizó para mover datos desde las fuentes hacia el data warehouse y para construir lógicas de transformación de datos necesarias para promover los datos almacenados a los contenedores de datos WORK y MODEL.
+
+### Azure SQL Database
+Ofreció una opción PaaS para consumir una base de datos como un servicio de datos en la nube, manejado por Azure. Esta base de datos almacena las tablas que representan el modelo de datos optimizado para el análisis, proporcionando a Yamaha un almacenamiento de datos altamente disponible y escalable.
+
+## Beneficios y Retorno de Inversión
+El proyecto proporcionó múltiples beneficios tangibles e intangibles, incluyendo:
+
+1. **Automatización de Procesos**: Eliminación de los procesos manuales y mejora de la eficiencia operativa.
+2. **Integridad y Calidad de Datos**: Mejora en la calidad de los datos utilizados para la toma de decisiones a través de validaciones y transformaciones.
+3. **Análisis Avanzado**: Capacidades mejoradas de análisis de datos para obtener insights profundos y mejorar estrategias y operaciones comerciales.
+4. **Reducción de Costos**: Mantenimiento de costos operativos bajos mediante la activación de servicios según la demanda.
+5. **Escalabilidad y Disponibilidad**: Capacidad para escalar recursos y garantizar la disponibilidad sin grandes inversiones en infraestructura.
+6. **Seguridad de Datos**: Beneficios de la seguridad de nivel empresarial, protegiendo los datos contra amenazas y asegurando el cumplimiento de normativas.
+
+
+## Cómo Usar
+(Sigue las instrucciones previamente detalladas en la sección de uso)
+
+## Contribuir
+(Sigue las instrucciones previamente detalladas en la sección de contribución)
+
+## Licencia
+(Sigue las instrucciones previamente detalladas en la sección de licencia)
+
+
 ## Contribuir
 Para contribuir al proyecto, por favor haz un fork del repositorio, crea una rama con tu feature o corrección y realiza un pull request.
 
