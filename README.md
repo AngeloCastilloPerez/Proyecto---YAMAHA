@@ -60,15 +60,6 @@ El proyecto proporcionó múltiples beneficios tangibles e intangibles, incluyen
 6. **Seguridad de Datos**: Beneficios de la seguridad de nivel empresarial, protegiendo los datos contra amenazas y asegurando el cumplimiento de normativas.
 
 
-## Cómo Usar
-(Sigue las instrucciones previamente detalladas en la sección de uso)
-
-## Contribuir
-(Sigue las instrucciones previamente detalladas en la sección de contribución)
-
-## Licencia
-(Sigue las instrucciones previamente detalladas en la sección de licencia)
-
 
 ## Contribuir
 Para contribuir al proyecto, por favor haz un fork del repositorio, crea una rama con tu feature o corrección y realiza un pull request.
@@ -76,4 +67,4 @@ Para contribuir al proyecto, por favor haz un fork del repositorio, crea una ram
 
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE.md para más detalles.
+Este proyecto está bajo la Licencia de NASA - ver el archivo LICENSE-NASA.md para más detalles.
